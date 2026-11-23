@@ -30,9 +30,10 @@ a:focus-visible { outline: 3px solid #7b9a42; outline-offset: 5px; border-radius
   max-width: 1120px;
   margin: 2.5rem auto 0;
   padding: 3rem;
-  border: 1px solid var(--ink);
+  border: 1px solid #183a60;
+  border-top: 5px solid #f0b74b;
   border-radius: 1.5rem;
-  background: var(--ink);
+  background: #183a60;
   color: var(--paper);
 }
 .profile-role { margin-top: 1.25rem; color: #d5e5cd; font-size: 1.125rem; }
@@ -69,7 +70,7 @@ footer { display: flex; justify-content: space-between; gap: 1rem; max-width: 11
   color-scheme: dark; --paper: #111e19; --ink: #e8eee3;
   --muted: #b9c9ba; --line: #43594b; --surface: #1b2d24; --about: #263c2c;
 }
-[data-theme="dark"] .profile { background: #173c34; color: #f5f3ed; border-color: #43594b; }
+[data-theme="dark"] .profile { color: #f5f3ed; }
 .resume-section { background: var(--surface); }
 #about { background: var(--about); }
 button { font: inherit; cursor: pointer; border: 1px solid var(--line); border-radius: .6rem; padding: .55rem .9rem; background: var(--surface); color: var(--ink); }
