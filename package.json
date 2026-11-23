@@ -1,0 +1,6 @@
+{
+  "name": "lab-4-javascript",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node server.mjs", "test": "node --test tests/core.test.js" }
+}
